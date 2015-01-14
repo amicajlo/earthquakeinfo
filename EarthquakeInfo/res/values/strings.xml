@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EarthquakeInfo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_item_map">Map</string>
+    <string name="nav_item_chart_date">Chart by date</string>
+    <string name="nav_item_chart_location">Chart by location</string>
+    <string name="nav_item_chart_by_magnitude">Chart by magnitude</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    
+    <string name="eq_title_src">Source:</string>
+    <string name="eq_title_magnitude">Magnitude:</string>
+    <string name="eq_title_depth">Depth:</string>
+    <string name="eq_title_region">Region:</string>
+    <string name="eq_title_lat">Latitude:</string>
+    <string name="eq_title_lon">Longitude:</string>
+    <string name="eq_title_timedate">Time:</string>
+    
+    
+    <!-- 	For message -->
+    <string name="make_my_store_succeed_message">My store has been changed to %s.</string>
+    <string name="message_no_connection">No connection</string>
+    <string name="message_must_connect_network">Sorry,  you must be connected to a network.</string>
+    <string name="message_confignetwork">Config</string>
+    <string name="message_close_dialog">Close</string>
+    <string name="message_oops">Oops</string>
+    <string name="message_network_technicall_issue">Looks like something is not quite working.\nPlease try again later.</string>
+    <string name="message_exit_app">Exit app.</string>
+    <string name="message_exit_app_confirm">Do you want to exit this app?.</string>
+    <string name="message_label_confirm">Yes</string>
+    <string name="message_label_decline">No</string>
+    
+</resources>

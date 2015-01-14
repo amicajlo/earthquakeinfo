@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_dropshadow"
+    android:orientation="vertical"
+    android:padding="@dimen/viewgroup_padding_spacious" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/viewgroup_padding"
+            android:text="@string/eq_title_region"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_caption"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_region"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/viewgroup_padding"
+            android:layout_weight="0.5"
+            android:textColor="@color/dark_green"
+            android:textSize="@dimen/text_caption" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/viewgroup_padding"
+            android:text="@string/eq_title_magnitude"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_caption"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_magnitude"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/viewgroup_padding"
+            android:layout_weight="0.5"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="@dimen/text_caption" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/viewgroup_padding"
+            android:text="@string/eq_title_depth"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_caption"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_depth"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/viewgroup_padding"
+            android:layout_weight="0.5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_caption" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/viewgroup_padding"
+            android:text="@string/eq_title_lat"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_caption"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_lat"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/viewgroup_padding"
+            android:layout_weight="0.5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_caption" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/viewgroup_padding"
+            android:text="@string/eq_title_lon"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_caption"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_lon"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/viewgroup_padding"
+            android:layout_weight="0.5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_caption" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/viewgroup_padding"
+            android:text="@string/eq_title_src"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_caption"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_src"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/viewgroup_padding"
+            android:layout_weight="0.5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_caption" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/viewgroup_padding"
+            android:text="@string/eq_title_timedate"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_caption"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_timedate"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/viewgroup_padding"
+            android:layout_weight="0.5"
+            android:textColor="@color/dark_yellow"
+            android:textSize="@dimen/text_caption" />
+    </LinearLayout>
+
+</LinearLayout>
